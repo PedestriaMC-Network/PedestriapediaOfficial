@@ -4,11 +4,6 @@ Welcome to the official wiki for PedestriaMC. We would like to thank you for che
     Best Wishes,
           Lukas Batema (Java Gamertag: GameHogPlays, Bedrock Gamertag: *GameHogPlays)
 
-
-## Logo
-
-
-
 ## Contributing Guidelines
 ### Rules
 1. No spam (includes phishing, unrelated PR's being opened, etc.)
