@@ -9,7 +9,7 @@ IMPORTANT: No versions are out yet, so not requests will be granted at this time
 | Version | Supported          |
 | ------- | ------------------ |
 | v0.0.00 | :x:                |
-| v0.0.01 | ::        |
+| v0.0.01 | :white_check_mark: |
 |         |                    |
 |         |                    |
 
