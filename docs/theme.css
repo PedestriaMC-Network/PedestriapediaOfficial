@@ -1,1 +1,148 @@
+html {
+     background-color: navy;
+}
 
+.header {
+     color: skyblue;
+     text-align: center;
+     padding: 20px;
+     background-color: blue;
+}
+
+.threecolumns {
+     float: left;
+     width: 33.33%;
+     background-color: aqua;
+}
+
+.row:after {
+     content: "";
+     display: table;
+     clear: both;
+     background-color: aqua;
+}
+
+@media screen and (max-width: 600px) {
+     .threecolumns {
+          width: 100%;
+     }
+}
+
+.twocolumns {
+     float: left;
+     width: 48%;
+     background-color: aqua;
+}
+
+.row:after {
+     content: "";
+     display: table;
+     clear: both;
+     background-color: aqua;
+}
+
+@media screen and (max-width: 600px) {
+     .twocolumns {
+          width: 100%;
+     }
+}
+
+p {
+     background-color: lightblue;
+     color: navy;
+}
+
+.topnav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: darkblue;
+     color: teal;
+}
+
+.topnav li {
+     float: left;
+     border-right: 1px solid lightblue;
+}     
+
+.topnav li:last-child {
+     border-right: none;
+}
+
+.topnav li a, .dropbtn {
+     display: block;
+     color: darkgray;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     background-color: navy;
+}
+
+.topnav li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
+     color: lightgray;
+     background-color: lightblue;
+}
+
+.topnav li.dropdown {
+     display: inline-block;
+}
+
+.topnav .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: teal;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+}
+
+.topnav .dropdown-content a {
+     color: gray;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     text-align: left;
+}
+
+.topnav .dropdown-content a:hover {
+     background-color: blue;
+     color: lightblue;
+}
+
+.dropdown:hover .dropdown-content {
+     display: block;
+}
+
+.topnav .active {
+     color: blue;
+     background-color: lightblue;
+}
+
+.centerbutton {
+     background-color: gray;
+     color: navy;
+     border: 2px solid teal;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 12px;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     float: center:
+}
+
+.centerbutton:hover {
+     background-color: navy;
+     color: darkgray;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+     float: center;
+}
+
+.footer {
+     color: darkblue;
+     text-align: center;
+     background-color: lightblue;
+     padding: 10px;
+}
