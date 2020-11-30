@@ -3,3 +3,35 @@ Welcome to the official wiki for PedestriaMC. We would like to thank you for che
 
     Best Wishes,
           Lukas Batema (Java Gamertag: GameHogPlays)
+
+
+## Logo
+N/A
+
+
+## Contributing Guidelines
+### Rules
+
+
+### What to Do
+
+
+### What NOT to do
+
+
+
+## Pedestria Related Links
+### Website
+
+
+### Discord
+
+
+### Minecraft Server
+These below IPs lead to the same server, as it is a crossplay server.
+
+#### Java Edition
+play.pedestriamc.com
+
+#### Bedrock Edition
+bedrock.pedestriamc.com (currently down)
