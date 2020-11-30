@@ -11,12 +11,15 @@ N/A
 
 ## Contributing Guidelines
 ### Rules
-
-
-### What to Do
-
-
-### What NOT to do
+1. No spam (includes phishing, unrelated PR's being opened, etc.)
+2. No Self Harm/Death Encourgement (includes KYS)
+3. No profanity or related language
+4. No sexual or explicit refernces
+5. Racial slurs are not allowed, as well as harassment
+6. No advertising
+7. Be respectful to everyone
+8. No toxicity
+9. No gore or joking around about SERIOUS real world events
 
 ### Bug Reporting/Other Reporting (Besides Security Vunerability Reports) Checklist
 - [ ] Open a PR (Pull Request)
