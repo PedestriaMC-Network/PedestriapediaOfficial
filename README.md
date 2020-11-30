@@ -6,7 +6,7 @@ Welcome to the official wiki for PedestriaMC. We would like to thank you for che
 
 
 ## Logo
-N/A
+
 
 
 ## Contributing Guidelines
