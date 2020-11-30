@@ -18,17 +18,26 @@ N/A
 
 ### What NOT to do
 
+### Bug Reporting/Other Reporting (Besides Security Vunerability Reports) Checklist
+- [ ] Open a PR (Pull Request)
+- [ ] Describe your issue
+- [ ] Give detailed instructions on how to reproduce the issue
+- [ ] (If possible) Fork this repository, then fix the bug there, and finally create a PR with the fixed version, OR wait for staff to create a PR and fix the issue and close your issue once it is resolved
+- [ ] (If forked) After submitting a PR, wait for staff review, then their merge (unless you are asked to fix something for certain reasons), and finally close your issue
 
+*Thank you for taking the time to make Pedestriapedia a better place, we greatly appreciate your work and help!*
 
 ## Pedestria Related Links
 ### Website
+https://www.pedestriamc.com
 
+https://store.pedestriamc.com
 
 ### Discord
-
+https://discord.gg/QZ89qVq
 
 ### Minecraft Server
-These below IPs lead to the same server, as it is a crossplay server.
+These two below IP adresses lead to the same server, as it is a crossplay server.
 
 #### Java Edition
 play.pedestriamc.com
