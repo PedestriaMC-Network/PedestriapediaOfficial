@@ -13,4 +13,10 @@ IMPORTANT: No versions are out yet, so not requests will be granted at this time
 
 ## Reporting a Vulnerability
 
+- [ ] Describe Vunerability
+- [ ] Give steps on how to reproduce Vunerability
+- [ ] (If possible) Give steps on how to fix Vunerability/fork repository and fix it after getting permission from staff
+- [ ] (If forked) Create a PR and wait for review and merging
+- [ ] (If given steps) Wait for staff to close your issue and merge PR
 
+Thank you for your help, we greatly appreciate it!
