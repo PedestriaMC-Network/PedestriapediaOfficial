@@ -36,7 +36,7 @@ https://discord.pedestriamc.com
 http://wiki.pedestriamc.com
 
 ### Discord
-https://discord.gg/QZ89qVq
+https://discord.com/invite/2WNUfrF
 
 ### Minecraft Server
 These two below IP adresses lead to the same server, as it is a crossplay server, but the third one leads to a retri version of PedestriaMC.
