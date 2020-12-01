@@ -80,7 +80,7 @@ p {
 }
 
 .topnav li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
-     color: lightgray;
+     color: navy;
      background-color: lightblue;
 }
 
@@ -92,6 +92,7 @@ p {
      display: none;
      position: absolute;
      background-color: teal;
+     color: navy;
      min-width: 160px;
      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
      z-index: 1;
