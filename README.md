@@ -39,7 +39,7 @@ http://wiki.pedestriamc.com
 https://discord.com/invite/2WNUfrF
 
 ### Minecraft Server
-These two below IP adresses lead to the same server, as it is a crossplay server, but the third one leads to a retri version of PedestriaMC.
+These two below IP adresses lead to the same server, as it is a crossplay server, but the third one leads to a retro version of PedestriaMC.
 
 #### Java Edition
 play.pedestriamc.com
