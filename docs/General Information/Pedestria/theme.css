@@ -52,8 +52,6 @@ body {
 }
 
 h1 { 
-     background-color: dodgerblue;
-     color: navy;
      font-family: "Courier New"; 
      font-size: 32px; 
      font-style: normal; 
@@ -63,8 +61,6 @@ h1 {
 } 
 
 h2 { 
-     background-color: dodgerblue;
-     color: navy;
      font-family: "Courier New"; 
      font-size: 28px; 
      font-style: normal; 
@@ -74,8 +70,6 @@ h2 {
 } 
 
 h3 { 
-     background-color: dodgerblue;
-     color: navy;
      font-family: "Courier New"; 
      font-size: 24px; 
      font-style: normal; 
@@ -85,8 +79,6 @@ h3 {
 } 
 
 h4 { 
-     background-color: dodgerblue;
-     color: navy;
      font-family: "Courier New"; 
      font-size: 20px; 
      font-style: normal; 
@@ -96,8 +88,6 @@ h4 {
 } 
 
 h5 { 
-     background-color: dodgerblue;
-     color: navy;
      font-family: "Courier New"; 
      font-size: 17px; 
      font-style: normal; 
@@ -107,8 +97,6 @@ h5 {
 } 
 
 h6 { 
-     background-color: dodgerblue;
-     color: navy;
      font-family: "Courier New"; 
      font-size: 15px; 
      font-style: normal; 
