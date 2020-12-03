@@ -101,18 +101,9 @@ h6 {
      line-height: 39px;
 } 
 
-.infostyle p {
+p {
      color: navy;
      background-color: dodgerblue;
-     font-family: "Courier New"; 
-     font-size: 11px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: 400; 
-     line-height: 16px;
-}
-
-p {
      font-family: "Courier New"; 
      font-size: 11px; 
      font-style: normal; 
@@ -211,27 +202,6 @@ pre {
 .topnav .active {
      color: blue;
      background-color: lightblue;
-}
-
-.centerbutton {
-     background-color: gray;
-     color: navy;
-     border: 2px solid teal;
-     padding: 15px 32px;
-     text-align: center;
-     text-decoration: none;
-     display: inline-block;
-     font-size: 12px;
-     transition-duration: 0.4s;
-     cursor: pointer;
-     float: center:
-}
-
-.centerbutton:hover {
-     background-color: navy;
-     color: darkgray;
-     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-     float: center;
 }
 
 .footer {
