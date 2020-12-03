@@ -65,7 +65,7 @@ h2 {
      line-height: 39px;
 } 
 
-.infostyle h3 { 
+.infostyle p h3 { 
      font-family: "Courier New"; 
      font-size: 24px; 
      font-style: normal; 
@@ -102,7 +102,8 @@ h6 {
 } 
 
 .infostyle p {
-     color: lightgray;
+     color: navy;
+     background-color: dodgerblue;
      font-family: "Courier New"; 
      font-size: 11px; 
      font-style: normal; 
