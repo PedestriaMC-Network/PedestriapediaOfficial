@@ -47,9 +47,51 @@ html {
      }
 }
 
+h1 { 
+     font-family: "Lucida Sans Typewriter"; 
+     font-size: 26px; 
+     font-style: normal; 
+     font-variant: normal; 
+     font-weight: bold; 
+     line-height: 39px;
+} 
+
+h3 { 
+     font-family: "Lucida Sans Typewriter"; 
+     font-size: 15px; 
+     font-style: normal; 
+     font-variant: normal; 
+     font-weight: bold; 
+     line-height: 22px; 
+} 
+
 p {
      background-color: lightblue;
      color: navy;
+     font-family: "Lucida Typewriter"; 
+     font-size: 11px; 
+     font-style: normal; 
+     font-variant: normal; 
+     font-weight: 400; 
+     line-height: 16px;
+}
+
+blockquote { 
+     font-family: "Lucida Typewriter";
+     font-size: 16px; 
+     font-style: italic;
+     font-variant: small-caps; 
+     font-weight: 100;
+     line-height: 24px; 
+} 
+
+pre { 
+     font-family: monospace; 
+     font-size: 10px; 
+     font-style: italic;
+     font-variant: normal; 
+     font-weight: 400; 
+     line-height: 15px; 
 }
 
 .topnav ul {
