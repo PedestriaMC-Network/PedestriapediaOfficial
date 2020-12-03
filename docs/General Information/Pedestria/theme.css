@@ -2,6 +2,10 @@ html {
      background-color: navy;
 }
 
+body {
+     color: navy;
+     background-color: dodgerblue;
+}
 .header {
      color: skyblue;
      text-align: center;
