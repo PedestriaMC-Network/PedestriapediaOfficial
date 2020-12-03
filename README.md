@@ -33,7 +33,7 @@ https://store.pedestriamc.com
 
 https://discord.pedestriamc.com
 
-http://wiki.pedestriamc.com
+https://wiki.pedestriamc.com
 
 ### Discord
 https://discord.com/invite/2WNUfrF
