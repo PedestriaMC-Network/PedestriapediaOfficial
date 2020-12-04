@@ -149,15 +149,6 @@ h6 {
      line-height: 39px;
 }
 
-ol {
-     font-family: "Courier New"; 
-     font-size: 13px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: 400; 
-     line-height: 16px;  
-}
-
 p {
      font-family: "Courier New"; 
      font-size: 13px; 
@@ -183,6 +174,15 @@ pre {
      font-variant: normal; 
      font-weight: 400; 
      line-height: 15px; 
+}
+
+ol {
+     font-family: "Courier New"; 
+     font-size: 13px; 
+     font-style: normal; 
+     font-variant: normal; 
+     font-weight: 400; 
+     line-height: 16px;
 }
 
 .topnav ul {
