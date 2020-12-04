@@ -105,6 +105,42 @@ h6 {
      line-height: 39px;
 } 
 
+.h7 {
+     font-family: "Courier New";
+     font-size: 15px; 
+     font-style: normal;
+     font-variant: normal; 
+     font-weight: bold; 
+     line-height: 39px;     
+}
+
+.h8 {
+     font-family: "Courier New"; 
+     font-size: 12px; 
+     font-style: normal; 
+     font-variant: normal; 
+     font-weight: bold; 
+     line-height: 39px;
+}
+
+.h9 {
+     font-family: "Courier New"; 
+     font-size: 10px; 
+     font-style: normal; 
+     font-variant: normal; 
+     font-weight: bold; 
+     line-height: 39px;
+}
+
+.h10 {
+     font-family: "Courier New"; 
+     font-size: 7px; 
+     font-style: normal; 
+     font-variant: normal; 
+     font-weight: bold; 
+     line-height: 39px;
+}
+
 p {
      color: navy;
      background-color: dodgerblue;
