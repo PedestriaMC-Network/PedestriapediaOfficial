@@ -58,6 +58,7 @@ h1 {
      font-variant: normal; 
      font-weight: bold; 
      line-height: 39px;
+     padding: 10px;
 } 
 
 h2 { 
@@ -67,6 +68,7 @@ h2 {
      font-variant: normal; 
      font-weight: bold; 
      line-height: 39px;
+     padding: 10px;
 } 
 
 h3 { 
@@ -75,7 +77,8 @@ h3 {
      font-style: normal; 
      font-variant: normal; 
      font-weight: bold; 
-     line-height: 22px; 
+     line-height: 22px;
+     padding: 10px;
 } 
 
 h4 { 
@@ -94,6 +97,7 @@ h5 {
      font-variant: normal; 
      font-weight: bold; 
      line-height: 39px;
+     padding: 10px;
 } 
 
 h6 { 
@@ -103,50 +107,47 @@ h6 {
      font-variant: normal; 
      font-weight: bold; 
      line-height: 39px;
+     padding: 10px;
 } 
 
 .h7 p {
-     color: darkblue;
-     background-color: lightblue;
      font-family: "Courier New";
      font-size: 15px; 
      font-style: normal;
      font-variant: normal; 
      font-weight: bold; 
-     line-height: 39px;     
+     line-height: 39px;
+     padding: 10px;
 }
 
 .h8 p {
-     color: darkblue;
-     background-color: lightblue;
      font-family: "Courier New"; 
      font-size: 12px; 
      font-style: normal; 
      font-variant: normal; 
      font-weight: bold; 
      line-height: 39px;
+     padding: 10px;
 }
 
 .h9 p {
-     color: darkblue;
-     background-color: lightblue;
      font-family: "Courier New"; 
      font-size: 10px; 
      font-style: normal; 
      font-variant: normal; 
      font-weight: bold; 
      line-height: 39px;
+     padding: 10px;
 }
 
 .h10 p {
-     color: darkblue;
-     background-color: lightblue;
      font-family: "Courier New"; 
      font-size: 7px; 
      font-style: normal; 
      font-variant: normal; 
      font-weight: bold; 
      line-height: 39px;
+     padding: 10px;
 }
 
 p {
@@ -156,6 +157,7 @@ p {
      font-variant: normal; 
      font-weight: 400; 
      line-height: 16px;
+     padding: 10px;
 }
 
 blockquote { 
@@ -165,6 +167,7 @@ blockquote {
      font-variant: small-caps; 
      font-weight: 100;
      line-height: 24px; 
+     padding: 10px;
 } 
 
 pre { 
@@ -174,6 +177,7 @@ pre {
      font-variant: normal; 
      font-weight: 400; 
      line-height: 15px; 
+     padding: 10px;
 }
 
 ol {
@@ -183,6 +187,7 @@ ol {
      font-variant: normal; 
      font-weight: 400; 
      line-height: 16px;
+     padding: 10px;
 }
 
 .topnav ul {
