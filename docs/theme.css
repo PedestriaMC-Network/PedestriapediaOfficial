@@ -105,7 +105,7 @@ h6 {
      line-height: 39px;
 } 
 
-.h7 {
+.h7 p {
      font-family: "Courier New";
      font-size: 15px; 
      font-style: normal;
@@ -114,7 +114,7 @@ h6 {
      line-height: 39px;     
 }
 
-.h8 {
+.h8 p {
      font-family: "Courier New"; 
      font-size: 12px; 
      font-style: normal; 
@@ -123,7 +123,7 @@ h6 {
      line-height: 39px;
 }
 
-.h9 {
+.h9 p {
      font-family: "Courier New"; 
      font-size: 10px; 
      font-style: normal; 
@@ -132,7 +132,7 @@ h6 {
      line-height: 39px;
 }
 
-.h10 {
+.h10 p {
      font-family: "Courier New"; 
      font-size: 7px; 
      font-style: normal; 
