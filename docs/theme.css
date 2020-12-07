@@ -6,6 +6,7 @@ body {
      color: navy;
      background-color: dodgerblue;
 }
+
 .header {
      color: skyblue;
      text-align: center;
@@ -148,6 +149,15 @@ h6 {
      font-weight: bold; 
      line-height: 39px;
      padding: 10px;
+}
+
+.signature1 {
+     text-align: center;
+}
+
+.signature2 {
+     text-align: center;
+     padding: 30px;
 }
 
 p {
