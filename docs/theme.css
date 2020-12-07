@@ -194,9 +194,10 @@ ol {
      color: lightblue;
      background-color: teal;
      border: 2px solid blue;
-     display: block;
+     display: inline-block;
      text-decoration: none;
-     padding: 5px;
+     padding: 15px 32px;
+     text-align: center;
      font-family: "Courier New"; 
      font-size: 15px; 
      font-style: normal; 
