@@ -151,13 +151,13 @@ h6 {
      padding: 10px;
 }
 
-.signature1 p {
+.signature1 {
      text-align: center;
 }
 
-.signature2 p {
+.signature2 {
      text-align: center;
-     margin: 15px;
+     padding: 15px;
 }
 
 p {
