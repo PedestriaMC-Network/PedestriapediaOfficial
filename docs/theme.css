@@ -153,12 +153,12 @@ h6 {
 
 .signature1 {
      text-align: center;
-     padding: 10px 50px;
+     float: left;
 }
 
 .signature2 {
      text-align: center;
-     padding: 10px 100px;
+     float: right;
 }
 
 p {
