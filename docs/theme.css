@@ -153,12 +153,11 @@ h6 {
 
 .signature1 p {
      text-align: center;
-     float: left;
 }
 
 .signature2 p {
      text-align: center;
-     float: right;
+     margin: 15px;
 }
 
 p {
