@@ -206,7 +206,6 @@ ul li {
 
 .defaultlist ol {
      list-style-type: default;
-     overflow: default;
 }
 
 ol li {
@@ -263,7 +262,7 @@ ol li {
      display: block;
      color: darkgray;
      text-align: center;
-     padding: 14px 16px;
+     padding: 10px 16px;
      text-decoration: none;
      background-color: navy;
 }
