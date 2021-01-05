@@ -261,7 +261,7 @@ ol li {
      display: block;
      color: darkgray;
      text-align: center;
-     padding: 10px;
+     padding: 0;
      text-decoration: none;
      background-color: navy;
 }
