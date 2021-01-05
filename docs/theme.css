@@ -261,7 +261,7 @@ ol li {
      display: block;
      color: darkgray;
      text-align: center;
-     padding: 10px 16px;
+     padding: 10px;
      text-decoration: none;
      background-color: navy;
 }
@@ -287,7 +287,7 @@ ol li {
 
 .topnav .dropdown-content a {
      color: gray;
-     padding: 12px 16px;
+     padding: 10px;
      text-decoration: none;
      display: block;
      text-align: left;
