@@ -267,7 +267,7 @@ ol li {
 }
 
 .topnav li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
-     color: navy;
+     color: darkblue;
      background-color: lightblue;
 }
 
@@ -279,7 +279,7 @@ ol li {
      display: none;
      position: absolute;
      background-color: teal;
-     color: navy;
+     color: darkblue;
      min-width: 160px;
      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
      z-index: 1;
