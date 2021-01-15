@@ -45,7 +45,7 @@ These two below IP adresses lead to the same server, as it is a crossplay server
 play.pedestriamc.com
 
 #### Bedrock Edition
-bedrock.pedestriamc.com (currently down)
+bedrock.pedestriamc.com
 
 #### Retro Server (Java Edition)
 retro.pedestriamc.com
