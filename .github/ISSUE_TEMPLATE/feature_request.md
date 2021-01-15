@@ -1,5 +1,5 @@
 ---
-name: Feature Request: (Request Name)
+name: Feature Request: [Request Name]
 about: Suggest an idea for this project
 title: "[FEATURE]"
 labels: 'Feature Requests'
