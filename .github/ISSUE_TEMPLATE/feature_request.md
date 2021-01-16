@@ -20,4 +20,4 @@ A clear and concise description of any alternative solutions or features you've 
 Add any other context about the feature request here.
 
 **Media**
-Add media if needed and if possible to help us understand what you want better. It is greatly prefered if done though. 
+Add media if needed and if possible to help us understand what you want better. It is greatly preferred if done though. 
