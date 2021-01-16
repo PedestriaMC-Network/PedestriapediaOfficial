@@ -1,0 +1,8 @@
+// This is only for styling VS, has nothing to do with this repository, but it wont let me move the file elsewhere
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#02286D",
+        "titleBar.activeBackground": "#033899",
+        "titleBar.activeForeground": "#F9FBFF"
+    }
+}
