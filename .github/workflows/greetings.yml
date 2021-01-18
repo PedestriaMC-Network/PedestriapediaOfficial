@@ -1,0 +1,13 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Thanks for interacting in an issue! Please follow the contribution guidelines found on the README.md file!'
+        pr-message: 'Thanks for interacting in a pull request! Please follow the contribution guidelines found on the README.md file!'
