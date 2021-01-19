@@ -11,43 +11,22 @@ body {
      color: skyblue;
      text-align: center;
      padding: 20px;
-     background-color: blue;
+     background: url();
 }
 
-.threecolumns {
+.column {
      float: left;
-     width: 33.33%;
-     background-color: aqua;
+}
+.column.left {
+     
 }
 
-.row:after {
-     content: "";
-     display: table;
-     clear: both;
-     background-color: aqua;
+.column.right {
+     width: 15%;
 }
-
+     
 @media screen and (max-width: 600px) {
-     .threecolumns {
-          width: 100%;
-     }
-}
-
-.twocolumns {
-     float: left;
-     width: 48%;
-     background-color: aqua;
-}
-
-.row:after {
-     content: "";
-     display: table;
-     clear: both;
-     background-color: aqua;
-}
-
-@media screen and (max-width: 600px) {
-     .twocolumns {
+     .column.right, column.left {
           width: 100%;
      }
 }
