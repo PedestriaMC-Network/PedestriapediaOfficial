@@ -50,7 +50,7 @@ h1 {
 } 
 
 h2 { 
-     font-family: "Courier New"; 
+     font-family: "Verdana"; 
      font-size: 33px; 
      font-style: normal; 
      font-variant: normal; 
@@ -60,7 +60,7 @@ h2 {
 } 
 
 h3 { 
-     font-family: "Courier New"; 
+     font-family: "Verdana"; 
      font-size: 29px; 
      font-style: normal; 
      font-variant: normal; 
@@ -70,7 +70,7 @@ h3 {
 } 
 
 h4 { 
-     font-family: "Courier New"; 
+     font-family: "Verdana"; 
      font-size: 25px; 
      font-style: normal; 
      font-variant: normal; 
@@ -79,7 +79,7 @@ h4 {
 } 
 
 h5 { 
-     font-family: "Courier New"; 
+     font-family: "Verdana"; 
      font-size: 21px; 
      font-style: normal; 
      font-variant: normal; 
@@ -89,7 +89,7 @@ h5 {
 } 
 
 h6 { 
-     font-family: "Courier New"; 
+     font-family: "Verdana"; 
      font-size: 17px; 
      font-style: normal; 
      font-variant: normal; 
@@ -99,7 +99,7 @@ h6 {
 } 
 
 .h7 p {
-     font-family: "Courier New";
+     font-family: "Verdana";
      font-size: 15px; 
      font-style: normal;
      font-variant: normal; 
@@ -109,7 +109,7 @@ h6 {
 }
 
 .h8 p {
-     font-family: "Courier New"; 
+     font-family: "Verdana"; 
      font-size: 12px; 
      font-style: normal; 
      font-variant: normal; 
@@ -119,7 +119,7 @@ h6 {
 }
 
 .h9 p {
-     font-family: "Courier New"; 
+     font-family: "Verdana"; 
      font-size: 10px; 
      font-style: normal; 
      font-variant: normal; 
@@ -129,7 +129,7 @@ h6 {
 }
 
 .h10 p {
-     font-family: "Courier New"; 
+     font-family: "Verdana"; 
      font-size: 7px; 
      font-style: normal; 
      font-variant: normal; 
@@ -181,7 +181,7 @@ pre {
 }
 
 ul li {
-     font-family: "Courier New"; 
+     font-family: "Verdana"; 
      font-size: 13px; 
      font-style: normal; 
      font-variant: normal; 
@@ -195,7 +195,7 @@ ul li {
 }
 
 ol li {
-     font-family: "Courier New"; 
+     font-family: "Verdana"; 
      font-size: 13px; 
      font-style: normal; 
      font-variant: normal; 
@@ -212,7 +212,7 @@ ol li {
      text-decoration: none;
      padding: 15px 32px;
      text-align: center;
-     font-family: "Courier New"; 
+     font-family: "Verdana"; 
      font-size: 15px; 
      font-style: normal; 
      font-variant: normal; 
@@ -225,9 +225,9 @@ ol li {
      margin: 0;
      padding: 0;
      overflow: hidden;
-     background-color: darkblue;
-     color: teal;
-     font-family: "Courier New"; 
+     background-color: rgb(0, 0, 153);
+     color: rgb(225, 225, 225);
+     font-family: "Verdana"; 
      font-size: 15px; 
      font-style: normal; 
      font-variant: normal; 
@@ -237,7 +237,6 @@ ol li {
 
 .topnav li {
      float: left;
-     border-right: 1px solid lightblue;
 }     
 
 .topnav li:last-child {
@@ -246,16 +245,16 @@ ol li {
 
 .topnav li a, .dropbtn {
      display: block;
-     color: darkgray;
+     color: rgb(255, 255, 255);
      text-align: center;
      padding: 0;
      text-decoration: none;
-     background-color: navy;
+     background-color: rgb(0, 0, 153);
 }
 
 .topnav li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
-     color: darkblue;
-     background-color: lightblue;
+     color: rgb(51, 153, 255);
+     background-color: rgb(0, 0, 153);
 }
 
 .topnav li.dropdown {
@@ -265,15 +264,15 @@ ol li {
 .topnav .dropdown-content {
      display: none;
      position: absolute;
-     background-color: teal;
-     color: darkblue;
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 153);
      min-width: 160px;
      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
      z-index: 1;
 }
 
 .topnav .dropdown-content a {
-     color: gray;
+     color: rgb(255, 255, 255);
      padding: 10px;
      text-decoration: none;
      display: block;
@@ -281,8 +280,8 @@ ol li {
 }
 
 .topnav .dropdown-content a:hover {
-     background-color: blue;
-     color: lightblue;
+     background-color: rgb(0, 0, 153);
+     color: rgb(51, 153, 255);
 }
 
 .dropdown:hover .dropdown-content {
@@ -290,8 +289,8 @@ ol li {
 }
 
 .topnav .active {
-     color: blue;
-     background-color: lightblue;
+     color: rgb(0, 0, 153);
+     background-color: rgb(51, 153, 255);
 }
 
 .footer {
