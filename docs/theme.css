@@ -12,9 +12,9 @@ body {
      background: url();
 }
 
-h1 .header { 
+.header h1 { 
      font-family: "Verdana"; 
-     font-size: 15px; 
+     font-size: 10px; 
      font-style: normal; 
      font-variant: normal; 
      font-weight: normal; 
