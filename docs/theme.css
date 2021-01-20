@@ -1,6 +1,6 @@
 body {
      color: rgb(255, 255, 255);
-     background-color: rgb(36, 36, 66);
+     background-color: rgb(0, 0, 102);
 }
 
 .header {
@@ -290,8 +290,8 @@ ol li {
 }
 
 .footer {
-     color: darkblue;
+     color: rgb(255, 255, 255);
      text-align: center;
-     background-color: lightblue;
+     background-color: rgb(36, 36, 66);
      padding: 10px;
 }
