@@ -10,10 +10,10 @@ body {
 
 .header h1 { 
      font-family: "Verdana"; 
-     font-size: 10px; 
+     font-size: 15px; 
      font-style: normal; 
      font-variant: normal; 
-     font-weight: normal; 
+     font-weight: bold; 
      line-height: normal;
      padding: normal;
 } 
