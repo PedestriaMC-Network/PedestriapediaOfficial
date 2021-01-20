@@ -225,7 +225,7 @@ ol li {
      margin: 0;
      padding: 0;
      overflow: hidden;
-     background-color: rgb(0, 0, 153);
+     background-color: rgb(0, 0, 102);
      color: rgb(225, 225, 225);
      font-family: "Verdana"; 
      font-size: 15px; 
@@ -249,12 +249,12 @@ ol li {
      text-align: center;
      padding: 0;
      text-decoration: none;
-     background-color: rgb(0, 0, 153);
+     background-color: rgb(0, 0, 102);
 }
 
 .topnav li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
      color: rgb(51, 153, 255);
-     background-color: rgb(0, 0, 153);
+     background-color: rgb(0, 0, 102);
 }
 
 .topnav li.dropdown {
@@ -265,7 +265,7 @@ ol li {
      display: none;
      position: absolute;
      background-color: rgb(255, 255, 255);
-     color: rgb(0, 0, 153);
+     color: rgb(0, 0, 102);
      min-width: 160px;
      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
      z-index: 1;
@@ -280,7 +280,7 @@ ol li {
 }
 
 .topnav .dropdown-content a:hover {
-     background-color: rgb(0, 0, 153);
+     background-color: rgb(0, 0, 102);
      color: rgb(51, 153, 255);
 }
 
@@ -289,7 +289,7 @@ ol li {
 }
 
 .topnav .active {
-     color: rgb(0, 0, 153);
+     color: rgb(0, 0, 102);
      background-color: rgb(51, 153, 255);
 }
 
