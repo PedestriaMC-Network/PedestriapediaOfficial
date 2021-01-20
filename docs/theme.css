@@ -8,21 +8,29 @@ body {
 }
 
 .header {
-     color: skyblue;
-     text-align: center;
-     padding: 20px;
+     text-align: left;
      background: url();
 }
+
+h1 .header { 
+     font-family: "Verdana"; 
+     font-size: 20px; 
+     font-style: normal; 
+     font-variant: normal; 
+     font-weight: normal; 
+     line-height: normal;
+     padding: normal;
+} 
 
 .column {
      float: left;
 }
 .column.left {
-     width: 85%;
+     width: 75%;
 }
 
 .column.right {
-     width: 15%;
+     width: 10%;
 }
      
 @media screen and (max-width: 600px) {
@@ -32,7 +40,7 @@ body {
 }
 
 h1 { 
-     font-family: "Courier New"; 
+     font-family: "Verdana"; 
      font-size: 37px; 
      font-style: normal; 
      font-variant: normal; 
