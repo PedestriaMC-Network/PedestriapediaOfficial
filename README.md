@@ -1,4 +1,6 @@
 # Pedestriapedia Official - The official wiki for PedestriaMC
+![Official Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online&style=for-the-badge&url=https://wiki.pedestriamc.com) ![Latest Release](https://img.shields.io/github/v/release/PedestriaMC-Network/PedestriapediaOfficial?style=for-the-badge&include_prereleases) ![Size](https://img.shields.io/github/repo-size/PedestriaMC-Network/PedestriapediaOfficial?style=for-the-badge) ![Files](https://img.shields.io/github/directory-file-count/PedestriaMC-Network/PedestriapediaOfficial?style=for-the-badge) [![PedestriaBotOfficial](https://img.shields.io/badge/Official%20Bot-PedestriaBotOfficial-blue?style=for-the-badge)](https://github.com/theopcoder/PedestriaBotOfficial)
+
 Welcome to the official wiki for PedestriaMC. We would like to thank you for checking us out! Currently it is not open-source, due to the pages needed, are not currently setup yet (they almost are though). The current release date is January 19, 2021. In the meantime, as the creator of this wiki, I would like to thank you for your patience, as we get setup around here on Pedestriapedia Official!
 
     Best Wishes,
