@@ -5,7 +5,7 @@ body {
 
 .header {
      background: url(https://raw.githubusercontent.com/PedestriaMC-Network/PedestriapediaOfficial/main/42D0546A-36B5-4B17-ABE1-04412502A0BF.png);
-     background-size: 1237px, 538px;
+     background-size: 1237px, 538px, auto;
 }
 
 .header h1 { 
