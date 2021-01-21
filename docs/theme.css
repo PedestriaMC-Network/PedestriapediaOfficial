@@ -301,15 +301,15 @@ ol li {
      width: 100%;
 }
 .footercolumn.one {
-     width: 33.3%;
+     width: 33%;
 }
 
 .footercolumn.two {
-     width: 33.3%;
+     width: 34%;
 }
 
 .footercolumn.three {
-     width: 33.3%;
+     width: 33%;
 }
 
 @media screen and (max-width: 600px) {
