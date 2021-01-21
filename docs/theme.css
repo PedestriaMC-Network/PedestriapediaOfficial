@@ -4,7 +4,6 @@ body {
 }
 
 .header {
-     text-align: left;
      background: url(https://raw.githubusercontent.com/PedestriaMC-Network/PedestriapediaOfficial/main/42D0546A-36B5-4B17-ABE1-04412502A0BF.png);
      background-size: cover;
      background-repeat: no-repeat;
@@ -18,6 +17,7 @@ body {
      font-weight: bold; 
      line-height: normal;
      padding: normal;
+     text-align: left;
 } 
 
 .column {
