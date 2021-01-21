@@ -7,7 +7,7 @@ body {
      background: url(https://raw.githubusercontent.com/PedestriaMC-Network/PedestriapediaOfficial/main/42D0546A-36B5-4B17-ABE1-04412502A0BF.png);
      background-size: 1237px, 538px;
      background-repeat: no-repeat;
-     background-clip: border-box;
+     background-clip: content-box;
 
 .header h1 { 
      font-family: "Verdana"; 
@@ -227,7 +227,7 @@ ol li {
      overflow: hidden;
      background-color: rgb(0, 0, 102);
      color: rgb(225, 225, 225);
-     background-clip: border-box;
+     background-clip: content-box;
      font-family: "Verdana"; 
      font-size: 15px; 
      font-style: normal; 
@@ -298,7 +298,7 @@ ol li {
      float: left;
      color: rgb(255, 255, 255);
      background-color: rgb(36, 36, 66);
-     background-clip: border-box;
+     background-clip: content-box;
      width: 100%;
 }
 
