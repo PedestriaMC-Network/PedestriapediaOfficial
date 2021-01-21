@@ -297,15 +297,14 @@ ol li {
      float: left;
      color: rgb(255, 255, 255);
      background-color: rgb(36, 36, 66);
-     padding: 10px;
-     width: 100%;
 }
+
 .footercolumn.one {
      width: 33%;
 }
 
 .footercolumn.two {
-     width: 34%;
+     width: 33%;
 }
 
 .footercolumn.three {
