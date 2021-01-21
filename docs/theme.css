@@ -22,11 +22,11 @@ body {
 
 .column {
      float: left;
-     color: rgb(255, 255, 255);
 }
+     
 .column.left {
      width: 65%;
-     background-color: rgb(0, 0, 102);s
+     background-color: rgb(0, 0, 102);
 }
 
 .column.right {
@@ -48,8 +48,6 @@ h1 {
      font-weight: bold; 
      line-height: 39px;
      padding: 10px;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
 } 
 
 h2 { 
@@ -60,8 +58,6 @@ h2 {
      font-weight: bold; 
      line-height: 39px;
      padding: 10px;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
 } 
 
 h3 { 
@@ -72,8 +68,6 @@ h3 {
      font-weight: bold; 
      line-height: 22px;
      padding: 10px;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
 } 
 
 h4 { 
@@ -83,8 +77,6 @@ h4 {
      font-variant: normal; 
      font-weight: bold; 
      line-height: 39px;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
 } 
 
 h5 { 
@@ -95,8 +87,6 @@ h5 {
      font-weight: bold; 
      line-height: 39px;
      padding: 10px;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
 }
 
 h6 { 
@@ -107,8 +97,6 @@ h6 {
      font-weight: bold; 
      line-height: 39px;
      padding: 10px;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
 }
 
 .h7 p {
@@ -119,8 +107,6 @@ h6 {
      font-weight: bold; 
      line-height: 39px;
      padding: 10px;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
 }
 
 .h8 p {
@@ -131,9 +117,6 @@ h6 {
      font-weight: bold; 
      line-height: 39px;
      padding: 10px;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
-}
 
 .h9 p {
      font-family: "Verdana"; 
@@ -143,8 +126,6 @@ h6 {
      font-weight: bold; 
      line-height: 39px;
      padding: 10px;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
 }
 
 .h10 p {
@@ -155,20 +136,14 @@ h6 {
      font-weight: bold; 
      line-height: 39px;
      padding: 10px;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
 }
 
 .signature1 {
      text-indent: 35%;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
 }
 
 .signature2 {
      text-indent: 55%;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
 }
 
 p {
@@ -179,8 +154,6 @@ p {
      font-weight: 400; 
      line-height: 16px;
      padding: 10px;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
 }
 
 blockquote { 
@@ -191,8 +164,6 @@ blockquote {
      font-weight: 100;
      line-height: 24px; 
      padding: 10px;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
 } 
 
 pre { 
@@ -203,14 +174,10 @@ pre {
      font-weight: 400; 
      line-height: 15px; 
      padding: 10px;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
 }
 
 .defaultlist ul {
      list-style-type: default;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
 }
 
 ul li {
@@ -221,14 +188,10 @@ ul li {
      font-weight: 400; 
      line-height: 16px;
      padding: 10px;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
 }
 
 .defaultlist ol {
      list-style-type: default;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
 }
 
 ol li {
@@ -239,8 +202,6 @@ ol li {
      font-weight: 400; 
      line-height: 16px;
      padding: 10px;
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
 }
 
 .button {
@@ -358,20 +319,17 @@ ol li {
 .footer .footercolumn.one a {
      text-decoration: none;
      color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
      padding: default;
 }
 
 .footer .footercolumn.two a {
      text-decoration: none;
-     background-color: rgb(0, 0, 102);
      color: rgb(255, 255, 255);
      padding: default;
 }
 
 .footer .footercolumn.three a {
      text-decoration: none;
-     background-color: rgb(0, 0, 102);
      color: rgb(255, 255, 255);
      padding: default;
 }
