@@ -34,7 +34,7 @@ body {
      background-color: rgb(51, 102, 204);
 }
      
-@media screen and max-width: 60 {
+@media screen and (max-width: 60) {
      .column.right, .column.left {
           width: 100%;
      }
