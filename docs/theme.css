@@ -8,6 +8,7 @@ body {
      background-size: 1237px, 538px;
      background-repeat: no-repeat;
      background-clip: content-box;
+}
 
 .header h1 { 
      font-family: "Verdana"; 
@@ -226,6 +227,7 @@ ol li {
      padding: 0;
      overflow: hidden;
      background-color: rgb(0, 0, 102);
+     background-clip: content-box;
      color: rgb(225, 225, 225);
      font-family: "Verdana"; 
      font-size: 15px; 
@@ -298,6 +300,7 @@ ol li {
      color: rgb(255, 255, 255);
      background-color: rgb(36, 36, 66);
      width: 100%;
+     background-clip: content-box;
 }
 
 .footercolumn.one {
