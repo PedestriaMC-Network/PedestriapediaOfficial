@@ -300,15 +300,15 @@ ol li {
      padding: 10px;
 }
 .footercolumn.one {
-     width: 33.33%;
+     width: 33%;
 }
 
 .footercolumn.two {
-     width: 33.33%;
+     width: 33%;
 }
 
 .footercolumn.three {
-     width: 33.33%;
+     width: 33%;
 }
 
 @media screen and (max-width: 600px) {
