@@ -1,10 +1,10 @@
-# Pedestriapedia Official - The official wiki for PedestriaMC
+# Pedestriapedia Official - The Official Wiki for PedestriaMC
 ![Official Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online&style=for-the-badge&url=https://www.pedestriamc.com) ![Latest Release](https://img.shields.io/github/v/release/PedestriaMC-Network/PedestriapediaOfficial?style=for-the-badge&include_prereleases) ![Size](https://img.shields.io/github/repo-size/PedestriaMC-Network/PedestriapediaOfficial?style=for-the-badge) [![PedestriaBotOfficial](https://img.shields.io/badge/Official%20Bot-PedestriaBotOfficial-blue?style=for-the-badge)](https://github.com/theopcoder/PedestriaBotOfficial) [![Discord](https://img.shields.io/badge/Discord-https%3A%2F%2Fdiscord.pedestriamc.com%2F-blue?style=for-the-badge)](https://discord.pedestriamc.com) [![Donate to this Project](https://img.shields.io/badge/Donate%20to%20the%20Development%20of%20This%20Project-paypal.me%2FLesaBatema-blue?style=for-the-badge)](https://paypal.me/LesaBatema)
 
 Welcome to the official wiki for PedestriaMC. We would like to thank you for checking us out! Currently it is not open-source, due to the pages needed, are not currently setup yet (they almost are though). The current release date is January 19, 2021. In the meantime, as the creator of this wiki, I would like to thank you for your patience, as we get setup around here on Pedestriapedia Official!
 
     Best Wishes,
-          Lukas Batema (Java Gamertag: HogaticCultist19, Bedrock Gamertag: *GameHogPlays)
+          Lukas Batema (Java Gamertag: HogaticCultist19)
 
 ## Contributing Guidelines
 ### Rules
