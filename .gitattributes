@@ -16,10 +16,10 @@ docs/*/*/*/*/*.css linguist-detectable
 /*.md linguist-detectable
 LICENSE linguist-detectable
 docs/*.html -linguist-documentation
-docs/html5/*/*.html -linguist-documentation
-docs/html5/*/*/*.html -linguist-documentation
-docs/html5/*/*/*/*.html -linguist-documentation
-docs/html5/*/*/*/*/*.html -linguist-documentation
+docs/*/*.html -linguist-documentation
+docs/*/*/*.html -linguist-documentation
+docs/*/*/*/*.html -linguist-documentation
+docs/*/*/*/*/*.html -linguist-documentation
 docs/*.js -linguist-documentation
 docs/js/*/*.js -linguist-documentation
 docs/js/*/*/*.js -linguist-documentation
