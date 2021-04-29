@@ -4,7 +4,7 @@
 Welcome to the official wiki for PedestriaMC. We would like to thank you for checking us out! Currently it is not open-source, due to the pages needed, are not currently setup yet (they almost are though). The current release date is January 19, 2021. In the meantime, as the creator of this wiki, I would like to thank you for your patience, as we get setup around here on Pedestriapedia Official!
 
     Best Wishes,
-          Lukas Batema (Java Gamertag: HogaticCultist19)
+          Lukas Batema (Java Gamertag: GameHogPlays)
 
 ## Contributing Guidelines
 ### Rules
