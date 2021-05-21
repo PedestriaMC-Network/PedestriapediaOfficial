@@ -1,12 +1,12 @@
-# PedestriaMC-Network/PedestriapediaOfficial CHANGELOG
+#  CHANGELOG
 ## v1.0.0
 ### Official Release
- 1. Add every single file you see up-to this release
+ 1. Add every single file you see here
 ---
 ## 2.0.0
 ### The Style Update
 1. Change the way version tags are created
-2. Basically redo the whole style of the site
+2. Basically finish up the styling of the site
 ---
 ## 2.1.0
 ### The Revival Update
