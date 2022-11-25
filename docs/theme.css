@@ -16,7 +16,7 @@ body {
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     padding: 96px 16px 32px;
+     padding: 16px 32px;
      gap: 16px;
 }
 
@@ -182,13 +182,11 @@ pre {
 }
 
 ul li {
-     font-family: "Verdana"; 
-     font-size: 13px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: 400; 
-     line-height: 16px;
-     padding: 10px;
+     font-family: 'Noto Serif';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 25px;
 }
 
 .defaultlist ol {
@@ -221,19 +219,17 @@ ol li {
 }
 
 .topnav ul {
-     list-style-type: none;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 8px 16px;
+     gap: 24px;
      margin: 0;
-     padding: 0;
+     list-style-type: none;
      overflow: hidden;
-     background-color: rgb(0, 0, 102);
      background-origin: border-box;
-     color: rgb(225, 225, 225);
-     font-family: "Verdana"; 
-     font-size: 15px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: 400; 
-     line-height: 16px;
+     background: rgba(29, 15, 14, 0.7);
+     box-shadow: inset -1px -1px 1px rgb(0 0 0 / 25%), inset 1px 1px 0px rgb(255 255 255 / 10%);
 }
 
 .topnav li {
@@ -246,17 +242,12 @@ ol li {
 
 .topnav li a, .dropbtn {
      display: block;
-     color: rgb(255, 255, 255);
+     color: #e8943c;
      text-align: center;
      padding: 0;
      text-decoration: none;
-     background-color: rgb(0, 0, 102);
 }
 
-.topnav li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
-     color: rgb(51, 153, 255);
-     background-color: rgb(0, 0, 102);
-}
 
 .topnav li.dropdown {
      display: inline-block;
@@ -265,8 +256,8 @@ ol li {
 .topnav .dropdown-content {
      display: none;
      position: absolute;
-     background-color: rgb(255, 255, 255);
-     color: rgb(0, 0, 102);
+     background-color: rgb(29 15 14);
+     color: #000066;
      min-width: 160px;
      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
      z-index: 1;
@@ -281,8 +272,8 @@ ol li {
 }
 
 .topnav .dropdown-content a:hover {
-     background-color: rgb(0, 0, 102);
-     color: rgb(51, 153, 255);
+     background-color: #e8943c;
+     color: rgb(253 236 219) ; 
 }
 
 .dropdown:hover .dropdown-content {
