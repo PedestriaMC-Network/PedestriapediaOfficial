@@ -242,7 +242,7 @@ ol li {
      border-right: none;
 }
 
-.topnav li a, .dropbtn {
+.topnav li, .dropbtn {
      display: block;
      color: #e8943c;
      text-align: center;
@@ -250,8 +250,14 @@ ol li {
      text-decoration: none;
 }
 
-.topnav li a:hover, .dropbtn:hover {
-     color: #A038FF;
+.topnav li a:hover, .dropbtn:hover,{
+     color: #a038ff;
+     text-decoration: none;
+}
+
+.curPage {
+     color: #a038ff;
+     text-decoration: none;
 }
 
 .topnav li.dropdown {
