@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Noto+Serif+Display:wght@800&display=swap');
+
 body {
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
+     color: #FDECDB;
+     background: #1D0F0E;
+     margin:0
 }
 
 .header {
@@ -8,19 +11,14 @@ body {
      background-size: cover;
      background-repeat: no-repeat;
      background-origin: border-box;
-     height: 538px;
+     height: 500px;
+     display:flex
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 96px 16px 32px;
+     gap: 16px;
 }
-
-.header h1 { 
-     font-family: "Verdana"; 
-     font-size: 17px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: bold; 
-     line-height: normal;
-     padding: 10px;
-     text-align: left;
-} 
 
 .column {
      float: left;
@@ -42,18 +40,18 @@ body {
      }
 }
 
-h1 { 
-     font-family: "Verdana"; 
-     font-size: 37px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: bold; 
+h1 {
+     font-family: 'Noto Serif Display', serif;
+     font-size: 37px;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: bold;
      line-height: 39px;
      padding: 10px;
 } 
 
 h2 { 
-     font-family: "Verdana"; 
+     font-family: 'Noto Serif Display', serif; 
      font-size: 33px; 
      font-style: normal; 
      font-variant: normal; 
