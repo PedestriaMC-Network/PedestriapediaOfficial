@@ -11,9 +11,9 @@ body {
      background-size: cover;
      background-repeat: no-repeat;
      background-origin: border-box;
-     height: 500px;
+     height: 480px;
+     display: flex;
      flex-direction: column;
-     justify-content: center;
      align-items: center;
      padding: 0px 0px 32px;
      gap: 16px;
@@ -49,6 +49,7 @@ h1 {
      background: linear-gradient(180deg, #FFF361 13.43%, #E8943C 49.29%, #D4580E 100%);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
+     margin: 0;
      background-clip: text;
      text-fill-color: transparent;
      }
@@ -59,6 +60,7 @@ h2 {
      font-weight: 400;
      font-size: 24px;
      line-height: 33px;
+     margin: 0;
 } 
 
 h3 { 
@@ -218,6 +220,10 @@ ol li {
      font-weight: 400; 
      line-height: 16px;
 }
+
+.topnav{
+     width: 100%;
+       }
 
 .topnav ul {
      display: flex;
