@@ -41,13 +41,11 @@ body {
 }
 
 h1 {
-     font-family: 'Noto Serif Display', serif;
-     font-size: 37px;
+     font-family: 'Noto Serif Display';
      font-style: normal;
-     font-variant: normal;
-     font-weight: bold;
-     line-height: 39px;
-
+     font-weight: 800;
+     font-size: 48px;
+     line-height: 65px;
      background: linear-gradient(180deg, #FFF361 13.43%, #E8943C 49.29%, #D4580E 100%);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
