@@ -19,19 +19,27 @@ body {
      gap: 16px;
      text-align: center;
 }
-
+/*Layout*/
 .column {
      float: left;
 }
-     
+
 .column.left {
      width: 65%;
-     background-color: rgb(36, 36, 66);
+     background-color: #1D0F0E;
 }
 
 .column.right {
      width: 35%;
-     background-color: rgb(51, 102, 204);
+     background-color: #392622;
+}
+
+.content{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 32px 128px;
+     gap: 32px;
 }
      
 @media screen and (max-width: 600px) {
@@ -39,6 +47,8 @@ body {
           width: 100%;
      }
 }
+
+/*Text*/
 
 h1 {
      font-family: 'Noto Serif Display';
@@ -206,6 +216,8 @@ ol li {
      padding: 10px;
 }
 
+/*UI*/
+
 .button {
      color: rgb(255, 255, 255);
      background-color: rgb(51, 204, 255);
@@ -255,7 +267,7 @@ ol li {
      text-decoration: none;
 }
 
-.topnav li a:hover, .dropbtn:hover,{
+.topnav li a:hover, .dropbtn:hover{
      color: #a038ff;
      text-decoration: none;
 }
