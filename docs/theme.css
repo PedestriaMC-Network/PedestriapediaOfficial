@@ -248,6 +248,9 @@ ol li {
      text-decoration: none;
 }
 
+.topnav li a:hover, .dropbtn:hover {
+     color: #A038FF;
+}
 
 .topnav li.dropdown {
      display: inline-block;
