@@ -357,6 +357,7 @@ footer {
 }
 
 
+
 .footercolumn {
      display: flex;
      flex-direction: column;
@@ -373,7 +374,7 @@ footer {
      gap: 16px;
 }
 
-.footercolumn.two{
+.footercolumn two{
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -381,7 +382,7 @@ footer {
      gap: 16px;
 }
 
-.footercolumn.three{
+.footercolumn three{
      display: flex;
      flex-direction: column;
      align-items: flex-end;
@@ -389,9 +390,17 @@ footer {
      gap: 16px;
 }
 
-@media screen and (max-width: 600px) {
-     .footercolumn.one, .footercolumn.two, .footercolumn.three {
+@media screen and (max-width: 920px) {
+     footer {
+          display:grid;
+          align-items: flex-start;
+     }
+     .vl{
+          display:none;
+     }
+     .footercolumn {
           width: 100%;
+          align-items: flex-start;
      }
 }
 
