@@ -21,6 +21,12 @@ body {
 }
 /*Layout*/
 
+.vl {
+     width: 1px;
+     height: 207px;
+     background: linear-gradient(0deg, rgba(231, 153, 54, 0.818421) 0%, #F7D154 14.58%, rgba(221, 116, 35, 0.7) 54.17%, rgba(159, 85, 30, 0.2) 100%);
+}
+
 .column {
      background-color: #1D0F0E;
      float: left;
@@ -76,22 +82,26 @@ h1 {
      }
 
 h2 { 
+     font-family: 'Noto Serif Display';
+     font-style: normal;
+     font-weight: 800;
+     font-size: 32px;
+     line-height: 44px;
+     background: linear-gradient(180deg, #FFF361 13.43%, #E8943C 49.29%, #D4580E 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     text-fill-color: transparent;
+     margin: 0;
+} 
+
+h3 { 
      font-family: 'Noto Serif';
      font-style: normal;
      font-weight: 400;
      font-size: 24px;
      line-height: 33px;
      margin: 0;
-} 
-
-h3 { 
-     font-family: "Noto Serif"; 
-     font-size: 29px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: bold; 
-     line-height: 22px;
-     padding: 10px;
 } 
 
 h4 { 
@@ -101,6 +111,7 @@ h4 {
      font-variant: normal; 
      font-weight: bold; 
      line-height: 39px;
+     margin: 0;
 } 
 
 h5 { 
@@ -110,17 +121,16 @@ h5 {
      font-variant: normal; 
      font-weight: bold; 
      line-height: 39px;
-     padding: 10px;
+     margin: 0;
 }
 
-h6 { 
-     font-family: "Noto Serif"; 
-     font-size: 17px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: bold; 
-     line-height: 39px;
-     padding: 10px;
+h6 {
+     font-family: "Noto Serif";
+     font-size: 17px;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: bold;
+     margin: 0;
 }
 
 .h7 p {
@@ -130,7 +140,7 @@ h6 {
      font-variant: normal; 
      font-weight: bold; 
      line-height: 39px;
-     padding: 10px;
+     margin: 0;
 }
 
 .h8 p {
@@ -140,17 +150,15 @@ h6 {
      font-variant: normal; 
      font-weight: bold; 
      line-height: 39px;
-     padding: 10px;
 }
 
 .h9 p {
-     font-family: "Noto Serif"; 
-     font-size: 10px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: bold; 
+     font-family: "Noto Serif";
+     font-size: 10px;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: bold;
      line-height: 39px;
-     padding: 10px;
 }
 
 .h10 p {
@@ -160,7 +168,6 @@ h6 {
      font-variant: normal; 
      font-weight: bold; 
      line-height: 39px;
-     padding: 10px;
 }
 
 .signature1 {
@@ -169,6 +176,11 @@ h6 {
 
 .signature2 {
      text-indent: 10%;
+}
+
+a {
+     text-decoration: none;
+     color:#FDECDB;
 }
 
 p {
@@ -274,17 +286,14 @@ ol li {
      color: #e8943c;
      text-align: center;
      padding: 0;
-     text-decoration: none;
 }
 
-.topnav li a:hover, .dropbtn:hover{
-     color: #a038ff;
-     text-decoration: none;
+.topnav li a:hover, .dropbtn:hover, a:hover{
+     text-decoration:underline;
 }
 
 .curPage {
      color: #a038ff;
-     text-decoration: none;
 }
 
 .topnav li.dropdown {
@@ -302,7 +311,7 @@ ol li {
 }
 
 .topnav .dropdown-content a {
-     color: rgb(255, 255, 255);
+     color: rgb(241 224 208);
      padding: 10px;
      text-decoration: none;
      display: block;
@@ -310,8 +319,8 @@ ol li {
 }
 
 .topnav .dropdown-content a:hover {
-     background-color: #e8943c;
-     color: rgb(253 236 219) ; 
+     background-color: #392622;
+     color: rgb(232 148 60) ; 
 }
 
 .dropdown:hover .dropdown-content {
@@ -323,24 +332,48 @@ ol li {
      background-color: rgb(51, 153, 255);
 }
 
-.footercolumn {
+footer {
      float: left;
-     color: rgb(255, 255, 255);
-     background-color: rgb(36, 36, 66);
      width: 100%;
      background-origin: border-box;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 16px;
 }
 
-.footercolumn.one {
-     width: 33%;
+
+.footercolumn {
+     display: flex;
+     flex-direction: column;
+     padding: 0px;
+     gap: 16px;
+     width: 33%
 }
 
-.footercolumn.two {
-     width: 33%;
+.footercolumn one{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 16px;
 }
 
-.footercolumn.three {
-     width: 33%;
+.footercolumn.two{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 0px;
+     gap: 16px;
+}
+
+.footercolumn.three{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     padding: 0px;
+     gap: 16px;
 }
 
 @media screen and (max-width: 600px) {
@@ -351,18 +384,15 @@ ol li {
 
 .footer .footercolumn.one a {
      text-decoration: none;
-     color: rgb(255, 255, 255);
      padding: default;
 }
 
 .footer .footercolumn.two a {
      text-decoration: none;
-     color: rgb(255, 255, 255);
      padding: default;
 }
 
 .footer .footercolumn.three a {
      text-decoration: none;
-     color: rgb(255, 255, 255);
      padding: default;
 }
