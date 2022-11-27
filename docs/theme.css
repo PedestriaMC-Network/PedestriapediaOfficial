@@ -307,7 +307,7 @@ ol li {
      border-right: none;
 }
 
-.topnav li, .dropbtn {
+.topnav li a, .dropbtn{
      display: block;
      color: #e8943c;
      text-align: center;
@@ -317,10 +317,6 @@ ol li {
 
 .topnav li a:hover, .dropbtn:hover, a:hover{
      text-decoration:underline;
-}
-
-.curPage {
-     color: #a038ff;
 }
 
 .topnav li.dropdown {
@@ -370,7 +366,9 @@ footer {
      gap: 16px;
 }
 
-
+.curPage {
+     color: #a038ff !important;
+}
 
 .footercolumn {
      display: flex;
