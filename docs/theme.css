@@ -27,15 +27,6 @@ body {
      background: linear-gradient(0deg, rgba(231, 153, 54, 0.818421) 0%, #F7D154 14.58%, rgba(221, 116, 35, 0.7) 54.17%, rgba(159, 85, 30, 0.2) 100%);
 }
 
-.column.left {
-     width: 65%;
-}
-
-.column.right {
-     width: 35%;
-     background-color: #392622;
-}
-
 .rowstack {
      display: flex;
      flex-direction: row;
@@ -246,13 +237,11 @@ ul li {
 }
 
 ol li {
-     font-family: "Noto Serif"; 
-     font-size: 13px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: 400; 
-     line-height: 16px;
-     padding: 10px;
+     font-family: "Noto Serif";
+     font-size: 18px;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: 400;
 }
 
 /*UI*/
