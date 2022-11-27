@@ -47,11 +47,16 @@ body {
      padding: 16px;
      gap: 16px;
      background-color: #1D0F0E;
+     width: 100%;
+
+     border: 1px solid;
+     border-image-slice: 1;
+     border-width: 1px;
+     border-image-source: linear-gradient(180deg, #E8943C 0%, rgba(232, 148, 60, 0) 42.71%, rgba(232, 148, 60, 0) 59.38%, #E8943C 100%);
 }
 
 .goldborder {
-     padding: 1px;
-     background: linear-gradient(180deg, #E8943C 0%, rgba(232, 148, 60, 0) 42.71%, rgba(232, 148, 60, 0) 59.38%, #E8943C 100%);
+     width: 100%;
 }
 
 .content{
@@ -255,17 +260,17 @@ ol li {
      text-align: center;
      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
+     border: 1px solid;
+     border-image-slice: 1;
+     border-width: 1px;
+     border-image-source: linear-gradient(180deg, rgba(232, 148, 60, 0.692708) 0%, rgba(232, 148, 60, 0.1) 100%);
+
      font-family: "Noto Serif"; 
      font-size: 18px; 
      font-style: normal; 
      font-variant: normal; 
      font-weight: 400; 
      line-height: 16px;
-}
-
-.buttonoutline{
-     padding: 1px;
-     background: linear-gradient(180deg, rgba(232, 148, 60, 0.692708) 0%, rgba(232, 148, 60, 0.1) 100%);
 }
 
 .topnav{
@@ -317,7 +322,6 @@ ol li {
      display: none;
      position: absolute;
      background-color: rgb(29 15 14);
-     color: #000066;
      min-width: 160px;
      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
      z-index: 1;
@@ -368,7 +372,7 @@ footer {
      width: 33%
 }
 
-.footercolumn one{
+.footercolumn.one{
      display: flex;
      flex-direction: column;
      align-items: flex-start;
@@ -376,7 +380,7 @@ footer {
      gap: 16px;
 }
 
-.footercolumn two{
+.footercolumn.two{
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -384,7 +388,7 @@ footer {
      gap: 16px;
 }
 
-.footercolumn three{
+.footercolumn.three{
      display: flex;
      flex-direction: column;
      align-items: flex-end;
