@@ -12,7 +12,6 @@ body {
      background-size: cover;
      background-repeat: no-repeat;
      background-origin: border-box;
-     height: 480px;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -20,7 +19,6 @@ body {
      gap: 16px;
      text-align: center;
 }
-
 
 /*Layout*/
 
@@ -30,16 +28,6 @@ body {
      background: linear-gradient(0deg, rgba(231, 153, 54, 0.818421) 0%, #F7D154 14.58%, rgba(221, 116, 35, 0.7) 54.17%, rgba(159, 85, 30, 0.2) 100%);
 }
 
-.column {
-     background-color: #1D0F0E;
-     float: left;
-     display: flex;
-     flex-direction: column;
-     align-items: flex-start;
-     padding: 16px;
-     gap: 16px;
-}
-
 .column.left {
      width: 65%;
 }
@@ -47,6 +35,28 @@ body {
 .column.right {
      width: 35%;
      background-color: #392622;
+}
+
+.rowstack {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px;
+     gap: 16px;
+}
+
+.rowstack big{
+     gap:32px;
+}
+
+.column {
+     float: left;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 16px;
+     gap: 16px;
+     background-color: #1D0F0E;
 }
 
 .goldborder {
@@ -105,21 +115,20 @@ h2 {
 } 
 
 h3 { 
+     font-family: 'Noto Serif Display';
+     font-style: normal;
+     font-weight: 800;
+     font-size: 32px;
+     line-height: 44px;
+     margin: 0;
+} 
+
+h4 { 
      font-family: 'Noto Serif';
      font-style: normal;
      font-weight: 400;
      font-size: 24px;
      line-height: 33px;
-     margin: 0;
-} 
-
-h4 { 
-     font-family: "Noto Serif"; 
-     font-size: 25px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: bold; 
-     line-height: 39px;
      margin: 0;
 } 
 
@@ -250,18 +259,24 @@ ol li {
 /*UI*/
 
 .button {
-     color: rgb(255, 255, 255);
-     background-color: rgb(51, 204, 255);
+     background-color: #392622;
      display: inline-block;
      text-decoration: none;
-     padding: 15px 32px;
+     padding: 16px 24px;
      text-align: center;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
      font-family: "Noto Serif"; 
-     font-size: 15px; 
+     font-size: 18px; 
      font-style: normal; 
      font-variant: normal; 
      font-weight: 400; 
      line-height: 16px;
+}
+
+.buttonoutline{
+     padding: 1px;
+     background: linear-gradient(180deg, rgba(232, 148, 60, 0.692708) 0%, rgba(232, 148, 60, 0.1) 100%);
 }
 
 .topnav{
