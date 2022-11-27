@@ -6,7 +6,6 @@ body {
      margin:0
 }
 
-
 .header {
      background: url(https://raw.githubusercontent.com/PedestriaMC-Network/PedestriapediaOfficial/main/42D0546A-36B5-4B17-ABE1-04412502A0BF.png);
      background-size: cover;
@@ -281,7 +280,7 @@ ol li {
 
 .topnav{
      width: 100%;
-       }
+ }
 
 .topnav ul {
      display: flex;
