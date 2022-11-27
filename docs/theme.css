@@ -186,8 +186,7 @@ h6 {
 }
 
 a {
-     text-decoration: none;
-     color:#FDECDB;
+     color: #e8943c;
 }
 
 p {
@@ -298,10 +297,10 @@ ol li {
 
 .topnav li a, .dropbtn{
      display: block;
-     color: #e8943c;
      text-align: center;
      white-space: nowrap;
      padding: 0;
+     text-decoration:none;
 }
 
 .topnav li a:hover, .dropbtn:hover, a:hover{
@@ -407,17 +406,17 @@ footer {
      }
 }
 
-.footer .footercolumn.one a {
-     text-decoration: none;
+footer .footercolumn.one a {
      padding: default;
+     color: #fdecdb
 }
 
-.footer .footercolumn.two a {
-     text-decoration: none;
+footer .footercolumn.two a {
      padding: default;
+     color: #fdecdb
 }
 
-.footer .footercolumn.three a {
-     text-decoration: none;
+footer .footercolumn.three a {
      padding: default;
+     color: #fdecdb
 }
