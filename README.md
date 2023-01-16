@@ -1,5 +1,5 @@
 # Pedestriapedia Official - The Official Wiki for PedestriaMC
-![Official Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online&style=for-the-badge&url=https://www.pedestriamc.com) ![Latest Release](https://img.shields.io/github/v/release/PedestriaMC-Network/PedestriapediaOfficial?style=for-the-badge&include_prereleases) ![Size](https://img.shields.io/github/repo-size/PedestriaMC-Network/PedestriapediaOfficial?style=for-the-badge) [![PedestriaBotOfficial](https://img.shields.io/badge/Official%20Bot-PedestriaBotOfficial-blue?style=for-the-badge)](https://github.com/theopcoder/PedestriaBotOfficial) [![Discord](https://img.shields.io/badge/Discord-https%3A%2F%2Fdiscord.pedestriamc.com%2F-blue?style=for-the-badge)](https://discord.pedestriamc.com) [![Donate to this Project](https://img.shields.io/badge/Donate%20to%20the%20Development%20of%20This%20Project-paypal.me%2FLesaBatema-blue?style=for-the-badge)](https://paypal.me/LesaBatema)
+![Official Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online&style=for-the-badge&url=https://www.pedestriamc.com) ![Latest Release](https://img.shields.io/github/v/release/PedestriaMC-Network/PedestriapediaOfficial?style=for-the-badge&include_prereleases) ![Size](https://img.shields.io/github/repo-size/PedestriaMC-Network/PedestriapediaOfficial?style=for-the-badge) [![PedestriaBotOfficial](https://img.shields.io/badge/Official%20Bot-PedestriaBotOfficial-blue?style=for-the-badge)](https://github.com/theopcoder/PedestriaBotOfficial) [![Discord](https://img.shields.io/badge/Discord-https%3A%2F%2Fdiscord.pedestriamc.com%2F-blue?style=for-the-badge)](https://discord.pedestriamc.com) [![Donate to this Project](https://img.shields.io/badge/Donate%20to%20this%20project-paypal.me%2Flukasbatema-blue?style=for-the-badge)](https://paypal.me/Lukas-Batema)
 
 Welcome to the official wiki for PedestriaMC. We would like to thank you for checking us out! The release date was January 19, 2021. Also, this is now open-source, so please read the contributing guidelines below, or in the [CONTRIBUTING.md](https://github.com/PedestriaMC-Network/PedestriapediaOfficial/blob/Development/CONTRIBUTING.md) file, to know what rules there are on contributing; as well as, how to contribute here! Thank you for your patience while you waited for this to become open-source!
 
@@ -41,13 +41,8 @@ https://wiki.pedestriamc.com
 https://discord.com/invite/2WNUfrF
 
 ### Minecraft Server
-These two below IP adresses lead to the same server, as it is a crossplay server, but the third one leads to a retro version of PedestriaMC.
-
 #### Java Edition
 play.pedestriamc.com
-
-#### Bedrock Edition
-bedrock.pedestriamc.com
 
 #### Retro Server (Java Edition)
 retro.pedestriamc.com
