@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Noto+Serif+Display:wght@800&display=swap');
+
 body {
-     color: rgb(255, 255, 255);
-     background-color: rgb(0, 0, 102);
+     color: #FDECDB;
+     background: #1D0F0E;
+     margin:0
 }
 
 .header {
@@ -8,159 +11,196 @@ body {
      background-size: cover;
      background-repeat: no-repeat;
      background-origin: border-box;
-     height: 538px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 0px 0px 32px;
+     gap: 16px;
+     text-align: center;
 }
 
-.header h1 { 
-     font-family: "Verdana"; 
-     font-size: 17px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: bold; 
-     line-height: normal;
-     padding: 10px;
-     text-align: left;
-} 
+/*Layout*/
+
+.vl {
+     width: 1px;
+     height: 207px;
+     background: linear-gradient(0deg, rgba(231, 153, 54, 0.818421) 0%, #F7D154 14.58%, rgba(221, 116, 35, 0.7) 54.17%, rgba(159, 85, 30, 0.2) 100%);
+}
+
+.rowstack {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px;
+     gap: 16px;
+}
+
+.rowstack big{
+     gap:32px;
+}
 
 .column {
      float: left;
-}
-     
-.column.left {
-     width: 65%;
-     background-color: rgb(36, 36, 66);
+     box-sizing: border-box;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 16px;
+     gap: 16px;
+     background-color: #1D0F0E;
+     border: 1px solid;
+     border-image-slice: 1;
+     border-width: 1px;
+     border-image-source: linear-gradient(180deg, #E8943C 0%, rgba(232, 148, 60, 0) 42.71%, rgba(232, 148, 60, 0) 59.38%, #E8943C 100%);
 }
 
-.column.right {
-     width: 35%;
-     background-color: rgb(51, 102, 204);
+.goldborder {
+     width: 100%;
 }
-     
-@media screen and (max-width: 600px) {
-     .column.right, .column.left {
-          width: 100%;
+
+.content{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 32px 128px;
+     gap: 32px;
+}
+
+@media screen and (max-width: 1100px) {
+     .content {
+          padding: 32px 32px;
      }
 }
 
-h1 { 
-     font-family: "Verdana"; 
-     font-size: 37px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: bold; 
-     line-height: 39px;
-     padding: 10px;
-} 
+/*Text*/
+
+h1 {
+     font-family: 'Noto Serif Display';
+     font-style: normal;
+     font-weight: 800;
+     font-size: 48px;
+     line-height: 65px;
+     background: linear-gradient(180deg, #FFF361 13.43%, #E8943C 49.29%, #D4580E 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     margin: 0;
+     background-clip: text;
+     text-fill-color: transparent;
+     }
 
 h2 { 
-     font-family: "Verdana"; 
-     font-size: 33px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: bold; 
-     line-height: 39px;
-     padding: 10px;
+     font-family: 'Noto Serif Display';
+     font-style: normal;
+     font-weight: 800;
+     font-size: 32px;
+     line-height: 44px;
+     background: linear-gradient(180deg, #FFF361 13.43%, #E8943C 49.29%, #D4580E 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     text-fill-color: transparent;
+     margin: 0;
 } 
 
 h3 { 
-     font-family: "Verdana"; 
-     font-size: 29px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: bold; 
-     line-height: 22px;
-     padding: 10px;
+     font-family: 'Noto Serif Display';
+     font-style: normal;
+     font-weight: 800;
+     font-size: 32px;
+     line-height: 44px;
+     margin: 0;
 } 
 
 h4 { 
-     font-family: "Verdana"; 
-     font-size: 25px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: bold; 
-     line-height: 39px;
+     font-family: 'Noto Serif';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     letter-spacing: 0.01em;
+     margin: 0;
 } 
 
 h5 { 
-     font-family: "Verdana"; 
+     font-family: "Noto Serif"; 
      font-size: 21px; 
      font-style: normal; 
      font-variant: normal; 
      font-weight: bold; 
      line-height: 39px;
-     padding: 10px;
+     margin: 0;
 }
 
-h6 { 
-     font-family: "Verdana"; 
-     font-size: 17px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: bold; 
-     line-height: 39px;
-     padding: 10px;
+h6 {
+     font-family: "Noto Serif";
+     font-size: 17px;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: bold;
+     margin: 0;
 }
 
 .h7 p {
-     font-family: "Verdana";
+     font-family: "Noto Serif";
      font-size: 15px; 
      font-style: normal;
      font-variant: normal; 
      font-weight: bold; 
      line-height: 39px;
-     padding: 10px;
+     margin: 0;
 }
 
 .h8 p {
-     font-family: "Verdana"; 
+     font-family: "Noto Serif"; 
      font-size: 12px; 
      font-style: normal; 
      font-variant: normal; 
      font-weight: bold; 
      line-height: 39px;
-     padding: 10px;
 }
 
 .h9 p {
-     font-family: "Verdana"; 
-     font-size: 10px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: bold; 
+     font-family: "Noto Serif";
+     font-size: 10px;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: bold;
      line-height: 39px;
-     padding: 10px;
 }
 
 .h10 p {
-     font-family: "Verdana"; 
+     font-family: "Noto Serif"; 
      font-size: 7px; 
      font-style: normal; 
      font-variant: normal; 
      font-weight: bold; 
      line-height: 39px;
-     padding: 10px;
 }
 
 .signature1 {
-     text-indent: 35%;
+     text-indent: 5%;
 }
 
 .signature2 {
-     text-indent: 55%;
+     text-indent: 10%;
+}
+
+a {
+     color: #e8943c;
 }
 
 p {
-     font-family: "Verdana"; 
-     font-size: 13px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: 400; 
-     line-height: 16px;
-     padding: 10px;
+     font-family: "Noto Serif";
+     font-size: 18px;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: 400;
+     line-height: 150%;
+     margin: 0;
 }
 
 blockquote { 
-     font-family: "Verdana";
+     font-family: "Noto Serif";
      font-size: 16px; 
      font-style: italic;
      font-variant: small-caps; 
@@ -184,13 +224,11 @@ pre {
 }
 
 ul li {
-     font-family: "Verdana"; 
-     font-size: 13px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: 400; 
-     line-height: 16px;
-     padding: 10px;
+     font-family: 'Noto Serif';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 25px;
 }
 
 .defaultlist ol {
@@ -198,45 +236,56 @@ ul li {
 }
 
 ol li {
-     font-family: "Verdana"; 
-     font-size: 13px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: 400; 
-     line-height: 16px;
-     padding: 10px;
+     font-family: "Noto Serif";
+     font-size: 18px;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: 400;
 }
+
+/*UI*/
 
 .button {
-     color: rgb(255, 255, 255);
-     background-color: rgb(51, 204, 255);
+     background-color: #392622;
      display: inline-block;
      text-decoration: none;
-     padding: 15px 32px;
+     padding: 16px 24px;
      text-align: center;
-     font-family: "Verdana"; 
-     font-size: 15px; 
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+     border: 1px solid;
+     border-image-slice: 1;
+     border-width: 1px;
+     border-image-source: linear-gradient(180deg, rgba(232, 148, 60, 0.692708) 0%, rgba(232, 148, 60, 0.1) 100%);
+
+     font-family: "Noto Serif"; 
+     font-size: 18px; 
      font-style: normal; 
      font-variant: normal; 
      font-weight: 400; 
      line-height: 16px;
 }
 
+.topnav{
+     width: 100%;
+ }
+
 .topnav ul {
-     list-style-type: none;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 8px 16px;
+     gap: 24px;
      margin: 0;
-     padding: 0;
-     overflow: hidden;
-     background-color: rgb(0, 0, 102);
+     list-style-type: none;
+     overflow-x: scroll;
+     overflow: -moz-scrollbars-none; 
      background-origin: border-box;
-     color: rgb(225, 225, 225);
-     font-family: "Verdana"; 
-     font-size: 15px; 
-     font-style: normal; 
-     font-variant: normal; 
-     font-weight: 400; 
-     line-height: 16px;
+     background: rgba(29, 15, 14, 0.7);
+     box-shadow: inset -1px -1px 1px rgb(0 0 0 / 25%), inset 1px 1px 0px rgb(255 255 255 / 10%);
 }
+
+.topnav ul::-webkit-scrollbar { height: 0; width: 0 !important }
 
 .topnav li {
      float: left;
@@ -246,18 +295,16 @@ ol li {
      border-right: none;
 }
 
-.topnav li a, .dropbtn {
+.topnav li a, .dropbtn{
      display: block;
-     color: rgb(255, 255, 255);
      text-align: center;
+     white-space: nowrap;
      padding: 0;
-     text-decoration: none;
-     background-color: rgb(0, 0, 102);
+     text-decoration:none;
 }
 
-.topnav li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
-     color: rgb(51, 153, 255);
-     background-color: rgb(0, 0, 102);
+.topnav li a:hover, .dropbtn:hover, a:hover{
+     text-decoration:underline;
 }
 
 .topnav li.dropdown {
@@ -267,15 +314,14 @@ ol li {
 .topnav .dropdown-content {
      display: none;
      position: absolute;
-     background-color: rgb(255, 255, 255);
-     color: rgb(0, 0, 102);
+     background-color: rgb(29 15 14);
      min-width: 160px;
      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
      z-index: 1;
 }
 
 .topnav .dropdown-content a {
-     color: rgb(255, 255, 255);
+     color: rgb(241 224 208);
      padding: 10px;
      text-decoration: none;
      display: block;
@@ -283,8 +329,8 @@ ol li {
 }
 
 .topnav .dropdown-content a:hover {
-     background-color: rgb(0, 0, 102);
-     color: rgb(51, 153, 255);
+     background-color: #392622;
+     color: rgb(232 148 60) ; 
 }
 
 .dropdown:hover .dropdown-content {
@@ -296,46 +342,81 @@ ol li {
      background-color: rgb(51, 153, 255);
 }
 
-.footercolumn {
+footer {
      float: left;
-     color: rgb(255, 255, 255);
-     background-color: rgb(36, 36, 66);
      width: 100%;
      background-origin: border-box;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 16px;
 }
 
-.footercolumn.one {
-     width: 33%;
+.curPage {
+     color: #a038ff !important;
 }
 
-.footercolumn.two {
-     width: 33%;
+.footercolumn {
+     display: flex;
+     flex-direction: column;
+     padding: 0px;
+     gap: 16px;
+     width: 33%
 }
 
-.footercolumn.three {
-     width: 33%;
+.footercolumn.one{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 16px;
 }
 
-@media screen and (max-width: 600px) {
-     .footercolumn.one, .footercolumn.two, .footercolumn.three {
+.footercolumn.two{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 0px;
+     gap: 16px;
+}
+
+.footercolumn.three{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     padding: 0px;
+     gap: 16px;
+}
+
+@media screen and (max-width: 920px) {
+     footer {
+          display:grid;
+          align-items: flex-start;
+     }
+     .vl{
+          display:none;
+     }
+     .footercolumn {
           width: 100%;
+          align-items: flex-start;
+     }
+     .footercolumn.two, .footercolumn.three {
+          align-items: flex-start;
      }
 }
 
-.footer .footercolumn.one a {
-     text-decoration: none;
-     color: rgb(255, 255, 255);
+footer .footercolumn.one a {
      padding: default;
+     color: #fdecdb
 }
 
-.footer .footercolumn.two a {
-     text-decoration: none;
-     color: rgb(255, 255, 255);
+footer .footercolumn.two a {
      padding: default;
+     color: #fdecdb
 }
 
-.footer .footercolumn.three a {
-     text-decoration: none;
-     color: rgb(255, 255, 255);
+footer .footercolumn.three a {
      padding: default;
+     color: #fdecdb
 }
